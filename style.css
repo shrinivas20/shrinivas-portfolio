@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    border: border-box;
+    background-color: #EAD8B1;
+}
+.nav-bar{
+    height: 80px;
+   
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid black;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+.name2{
+    font-family: "Oswald", sans-serif;
+
+}
+
+
+.nav-name{
+    font-family: "Oswald", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #474747;
+    margin-left: 10px;
+}
+
+.box:hover{
+    text-decoration: underline grey;
+    
+}
+.nav-home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a{
+    color: #474747;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.float-left{
+    display: flex;
+    margin-right: 20px;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+.menu{
+    font-size: 1.3rem;
+    margin-top:4px;
+}
+@media(max-width:600px){
+    .nav-name>P{
+        font-size: 1rem;
+    }
+    .nav-home,.nav-about,.nav-projects{
+        visibility:hidden;
+    }
+    .nav-se>i{
+        cursor: pointer;
+        visibility: hidden;
+    }
+    .navbar{
+        width: 100%;
+    }
+}
+/** header complented**/
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+.container{
+   margin-top: 120px;
+   margin-left: 100px;
+
+}
+
+.main-image{
+
+    
+    height: 300px;
+    width: 550px;
+    background-image: url(./shrinivas2.jpeg);
+    background-size: cover;
+    border: border-box;
+    border: 5px solid gray;
+   box-shadow: 3px 0px 3px gray;
+   border-radius: 50%;
+   justify-self:  center;
+   align-self: center;
+   flex-wrap: nowrap;
+   
+   
+
+}
+
+.about-me>p{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+}
+#one{
+    font-size: 5rem;
+    color:#3C3D37;
+   
+
+}
+
+#second{
+    color:#697565;
+}
+
+@media(max-width:600px){
+    .main{
+        flex-direction: column;
+        height: 100%;
+        flex-wrap: nowrap
+    }
+    .main-image{
+        height: 350px;
+        width: 100%;
+        margin-right: 100px;
+    }
+
+}
+
+
+/** main content completed**/
+
+.foot-bar{
+    display: inline-flex;
+    justify-content: center;
+}
+.font-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
